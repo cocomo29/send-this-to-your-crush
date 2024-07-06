@@ -1,5 +1,6 @@
 // Get the "No" button element
 const noButton = document.getElementById("no-button");
+noButton.setAttribute('tabindex', '-1');
 
 // Add a mouseover event listener to move the "No" button randomly
 noButton.addEventListener("mouseover", () => {
